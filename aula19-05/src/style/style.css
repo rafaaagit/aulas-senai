@@ -1,0 +1,68 @@
+@import url(./global.css);
+
+body{
+   background-image: url(https://pm1.aminoapps.com/6371/eeee328d8216abc898d045e0768c9e2e9f720cf5_hq.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.button{
+   color: var(--cor-primaria);
+   padding: 10px;
+}
+.button2{
+   color: var(--cor-primaria);
+   padding: 10px;
+}
+.button3{
+   color: var(--cor-primaria);
+   padding: 10px;
+
+}
+.button4{
+   color: var(--cor-primaria);
+   padding: 10px;
+ 
+}
+.button5{
+   color: var(--cor-primaria);
+   padding: 10px;
+
+}
+
+.paragrafo{
+   color:var(--cor-primaria);
+   font-size: 60px;
+}
+.paragrafo2{
+   color:var(--cor-primaria);
+   font-size: 60px;
+}
+.paragrafo3{
+   color:var(--cor-primaria);
+   font-size: 40px;
+}
+.paragrafo4{
+   color:var(--cor-primaria);
+   font-size: 60px;
+}
+.paragrafo5{
+   color:var(--cor-primaria);
+   font-size: 40px;
+}
+
+.titulo{
+   color:var(--cor-primaria);
+}
+.titulo2{
+   color:var(--cor-primaria);
+}
+.titulo3{
+   color:var(--cor-primaria);
+}
+.titulo4{
+   color:var(--cor-primaria);
+}
+.titulo5{
+   color:var(--cor-primaria);
+}

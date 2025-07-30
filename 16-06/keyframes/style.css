@@ -1,0 +1,148 @@
+*{
+      margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    background: none;
+}
+
+
+
+/* p{
+    -webkit-text-stroke-color: rgb(155, 6, 6);
+    color: white;
+    font-size: 20px;
+    -webkit-text-stroke-width: 1px;
+} */
+
+/* @keyframes nome-da-animacao{
+    from {
+        propriedade: valor
+    }
+    to{
+        propriedade: valor
+    }
+} */
+
+
+/* 
+@keyframes piscar{
+    
+    0%{
+        background-color: yellow;
+       opacity: 1; 
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        background-color: red;
+        opacity: 1;
+    }
+}
+
+
+button{
+    background-color: aliceblue;
+    animation: piscar 1s infinite;
+    
+} */
+
+
+/* @keyframes girar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+button{
+    animation: girar 2s infinite;
+
+}
+
+button:hover{
+    animation-play-state: paused;
+} */
+
+
+/* .loader{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #808080;
+
+
+    border-top:  5px solid blue;
+    animation: girar 1s infinite;
+}
+
+
+@keyframes girar{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} */
+
+
+@keyframes arrow {
+    0% {
+        left: 0;
+        transform: rotateY(0deg);
+    }
+
+    49% {
+        transform: rotateY(0deg);
+    }
+
+    50% {
+        left: 90vw;
+        transform: rotateY(180deg);
+    }
+
+    99% {
+        transform: translateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(180deg);
+        left: 0;
+    }
+}
+
+.mario {
+   
+    position: relative;
+    bottom: 0;
+    animation: arrow 12s infinite;
+}
+
+
+
+
+.mato{
+    position: fixed;
+    bottom: 0;    
+    
+}
+
+
+
+.grama{
+    width: 100vw;
+    height: 50px;
+    background-color: green;
+}
+
+.terra{
+    width: 100vw;
+    height: 50px;
+    background-color: brown;
+}

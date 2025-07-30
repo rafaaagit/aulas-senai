@@ -1,0 +1,95 @@
+/* --- ESTILOS APENAS PARA DESKTOP (LARGURA FIXA) --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #dc3545; /* Vermelho para chamar atenção */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+/* Container de largura fixa */
+.fixed-width-container {
+    width: 960px; /* Largura FIXA, não se adapta! */
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Navegação Desktop */
+.desktop-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #555;
+    display: flex; /* Tentativa de layout em linha, mas sem wrap */
+    justify-content: space-around;
+}
+
+.desktop-nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap; /* Impede quebra de linha nos links */
+}
+
+.desktop-nav ul li a:hover {
+    background-color: #666;
+}
+
+/* Layout de conteúdo de 2 colunas para desktop */
+.content-wrapper {
+    display: flex;
+    padding: 20px;
+}
+
+.main-content {
+    flex: 2; /* Ocupa 2/3 do espaço */
+    padding-right: 20px;
+}
+
+.sidebar {
+    flex: 1; /* Ocupa 1/3 do espaço */
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.main-content img {
+    width: 100%; /* Ocupa 100% da sua coluna, mas a coluna é fixa */
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 0; /* Colado ao container fixo */
+}

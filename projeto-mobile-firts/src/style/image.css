@@ -1,0 +1,13 @@
+.image-container {
+    width: 80%; /* O contêiner pode ter uma largura fluida ou fixa */
+    margin: 20px auto;
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+/* Regras que protegem a imagem */
+img {
+    max-width: 100%; /* A imagem nunca será maior que o contêiner azul */
+    height: auto;    /* A altura se ajusta para manter a proporção original */
+    display: block;  /* Ajuda a remover espaços extras abaixo da imagem */
+}

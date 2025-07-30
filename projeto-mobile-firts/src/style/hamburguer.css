@@ -1,0 +1,124 @@
+/* --- ESTILOS MOBILE FIRST (PADRÃO) --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.header-nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Menu Hambúrguer (Visível em Mobile) */
+.hamburger-menu {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    display: block; /* Visível por padrão em mobile */
+}
+
+/* Navegação Principal (Oculta em Mobile por padrão, será mostrada via JS ou CSS truque simples) */
+/* Para simplificar aqui, vamos ocultá-la e mostrá-la via media query */
+.main-nav {
+    display: none; /* Oculta a navegação principal em mobile */
+    width: 100%; /* Ocupa a largura total abaixo do header */
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav ul li {
+    border-top: 1px solid #555;
+}
+
+.main-nav ul li:last-child {
+    border-bottom: 1px solid #555;
+}
+
+.main-nav ul li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    background-color: #444;
+}
+
+.main-nav ul li a:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/* --- MEDIA QUERIES PARA DESKTOP --- */
+@media screen and (min-width: 768px) {
+    .header-nav {
+        justify-content: space-between;
+    }
+
+    /* Oculta o botão de hambúrguer em desktop */
+    .hamburger-menu {
+        display: none;
+    }
+
+    /* Mostra a navegação principal em desktop */
+    .main-nav {
+        display: block; /* Mostra o menu de navegação completo */
+        width: auto; /* Não ocupa mais 100% da largura */
+        text-align: right;
+    }
+
+    .main-nav ul {
+        display: flex; /* Transforma em linha */
+    }
+
+    .main-nav ul li {
+        border-top: none; /* Remove bordas que eram para mobile */
+        border-bottom: none;
+    }
+
+    .main-nav ul li:not(:last-child) {
+        margin-right: 20px; /* Espaçamento entre os itens do menu */
+    }
+
+    .main-nav ul li a {
+        background-color: transparent; /* Fundo transparente */
+        padding: 0; /* Remove padding extra */
+    }
+
+    .main-nav ul li a:hover {
+        color: #ddd; /* Efeito hover mais sutil */
+        background-color: transparent;
+    }
+}

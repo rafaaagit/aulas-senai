@@ -1,0 +1,22 @@
+button{
+    padding: 15px;
+    background-color: red;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: aquamarine;
+    color: blueviolet;   
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    transition: 0.8s;
+}
+img:hover{
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skew</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(to right, green , black);
+        }
+
+        .box:active{
+            transform: skew(20deg);
+      
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        box
+    </div>
+</body>
+</html>

@@ -1,0 +1,1059 @@
+@import url(./global.css);
+
+/*-----------------------HEADER-------------------------- */
+
+header {
+    display: flex;
+    /* justtify content alinha em horizontal */
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-neutral-Silver);
+    padding: 22px 0px;
+}
+
+.nav-header ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+
+}
+
+.nav-header ul li a {
+    text-decoration: none;
+    color: #18191F;
+
+}
+
+.active {
+    font-weight: 600;
+}
+
+.btn-header {
+    display: flex;
+    gap: 14px;
+}
+
+.btn-login {
+    background-color: var(--color-neutral-Silver);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-login a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-size: 14px;
+    font-family: var(--font);
+}
+
+.btn-SingUp {
+    background-color: var(--color-primary);
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.btn-SingUp a {
+    color: var(--color-neutral-White);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: var(--font);
+}
+
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    cursor: pointer;
+
+}
+
+.menu-toggle span {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+/*-----------------------FIM HEADER-------------------------- */
+
+/*-----------------------MAIN-------------------------- */
+/* horizontal só se trata com justify content por isso está 0 no padding */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 104px;
+    padding: 96px 0;
+    background-color: var(--color-neutral-Silver);
+}
+
+.content-lessons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 657px;
+}
+
+
+.content-lessons h1 {
+    font-size: 64px;
+    color: var(--color-neutral-D_Grey);
+}
+
+.content-lessons h1 span {
+    color: var(--color-primary);
+}
+
+.content-lessons p {
+    color: var(--color-neutral-Grey);
+}
+
+.content-lessons button {
+    width: 128px;
+}
+
+
+/*-----------------------FIM MAIN-------------------------- */
+/*-----------------------OUR CLIENTS-------------------------- */
+/* 
+.our-clients-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: var(--color-neutral-D_Grey);
+    padding: 40px 0px;
+}
+
+.our-clients-content h2{
+    font-size: 36px;
+}
+
+.our-clients-content p{
+    color: var(--color-neutral-Grey);
+    font-size: 16px;
+}
+
+.our-clients-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 136px;
+    padding: 16px 0px;
+
+} */
+
+
+
+
+.our-clients {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 0px;
+    gap: 16px;
+}
+
+.our-clients-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.our-clients-content h2 {
+    font-size: 36px;
+    color: var(--color-neutral-D_Grey);
+}
+
+.our-clients-content p {
+    color: var(--color-neutral-Grey);
+    font-size: 16px;
+}
+
+.our-clients-logo {
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    padding: 25px 0px;
+
+}
+
+
+
+
+/*-----------------------FIM OUR CLIENTS-------------------------- */
+/*-----------------------Manager-system-------------------------- */
+
+
+/* .manager-system{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+
+.manager-community h2{
+    text-align: center;
+    font-size: 36px;
+    color: var(--color-neutral-D_Grey);
+}
+
+.manager-community p{
+    text-align: center;
+    font-size: 16px;
+    color: var(--color-neutral-Grey);
+}
+
+.nexcent-suitable{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 299px;
+    height: 251px;
+}
+
+.nexcent-suitable h2{
+    font-size: 28px;
+}
+
+.nexcent-suitable p{
+    font-size: 14px;
+}
+
+
+.nexcent-suitable2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 299px;
+    height: 280px;
+}
+
+.nexcent-suitable2 h2{
+    font-size: 28px;
+}
+
+
+.nexcent-suitable2 p{
+    font-size: 14px;
+}
+
+.nexcent-suitable3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 299px;
+    height: 260px;
+}
+
+.nexcent-suitable3 h2{
+    font-size: 28px
+}
+
+.nexcent-suitable3 p{
+    font-size: 14px;
+}
+
+.nexcent-one{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 127px;
+    padding: 144px 977px;
+    }
+
+
+
+
+
+
+
+/*-----------------------FIM Manager-system-------------------------- */
+
+
+/*-----------------------Manager-system-------------------------- */
+.manager-system {
+    width: 100%;
+    height: 416px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin: 8px;
+}
+
+.manager-system>h2 {
+    font-size: 36px;
+    font-weight: 600;
+    width: 542px;
+    text-align: center;
+    color: var(--color-neutral-D_Grey);
+}
+
+.manager-system>p {
+    font-size: 16px;
+    color: var(--color-neutral-Grey);
+    margin-top: 8px;
+    margin: 16px;
+}
+
+.card-wrapper {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 127px;
+
+
+}
+
+.card-wrapper .card {
+
+    width: 300px;
+    height: 260px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 8px rgba(171, 190, 209, 0.20);
+    margin: 43px;
+}
+
+.card>h3 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 16px;
+    color: var(--color-neutral-D_Grey);
+
+}
+
+.card>p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: var(--color-neutral-Grey);
+    text-align: center;
+}
+
+/*-----------------------FIM Manager-system-------------------------- */
+/*----------------------- PIXELGRADE-------------------------- */
+/* .pixelgrade {
+    display: flex;
+    align-items:center;
+    
+    justify-content: center;
+    gap: 60px;
+
+    padding: 40px 0;
+}
+
+
+
+.text {
+  
+    max-width: 600px;
+    text-align: left;
+}
+
+.text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: var(--color-neutral-D_Grey);
+}
+
+.text p {
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: var(--color-neutral-Grey);
+} */
+/*----------------------- FIM PIXELGRADE-------------------------- */
+/*----------------------- PIXELGRADE-------------------------- */
+.pixelgrade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 49px;
+}
+
+aside>h2 {
+    color: var(--color-neutral-D_Grey);
+    font-size: 36px;
+    width: 600px;
+    margin-bottom: 16px;
+
+}
+
+aside>p {
+    color: var(--color-neutral-Grey);
+    font-size: 14px;
+    line-height: 20px;
+    width: 601px;
+    margin-bottom: 32px;
+}
+
+/*----------------------- FIM PIXELGRADE-------------------------- */
+
+/*-----------------------HELPING-------------------------- */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 48px;
+
+
+
+}
+
+.helping {
+    background-color: var(--color-neutral-Silver);
+    padding: 64px 0px;
+}
+
+.textos {
+    width: 540px;
+}
+
+.textos>h2 {
+
+    font-size: 36px;
+    font-weight: 600;
+    width: 390px;
+    color: var(--color-neutral-D_Grey);
+}
+
+.textos>p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 8px;
+}
+
+.textos span {
+    color: var(--color-primary);
+    /* cor verde */
+}
+
+.content-side {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 72px;
+
+
+}
+
+.wrapper-infos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 540px;
+
+}
+
+.info-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+
+}
+
+.info-box img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-text h3 {
+    font-size: 28px;
+    font-weight: 700;
+
+    color: var(--color-neutral-D_Grey);
+
+}
+
+.info-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-neutral-Grey);
+
+}
+
+/*-----------------------FIM HELPING-------------------------- */
+/*------------------------footer-design-section ------------------------- */
+/* .footer-design-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    gap: 49px;
+    
+}
+
+.footer-design-section>h2{
+    color: var(--color-neutral-D_Grey);
+    font-size: 36px;
+    font-weight: 600;
+} 
+
+.footer-design-section>p{
+    color: var(--color-neutral-Grey);
+    font-size: 14px;
+    font-weight: 400;
+} */
+
+.how-design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    gap: 48.47px;
+
+}
+
+.content-how-design {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.content-how-design {
+    width: 601px;
+}
+
+.content-how-design h2 {
+    color: var(--color-neutral-D_Grey);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+.content-how-design p {
+    color: var(--color-neutral-Grey);
+    font-size: 14px
+}
+
+.content-how-design button {
+    width: 151px;
+}
+
+
+
+/*------------------------FIM footer-design-section ------------------------- */
+
+/*------------------------smith ------------------------- */
+/* .container-smith {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 78px;
+    margin-top: 48px;
+    background-color: var(--color-neutral-Silver);
+}
+
+.tesla {
+    padding: 32px 0px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0px;
+}
+
+.text .texto {
+    color: var(--color-neutral-Grey);
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 748px;
+}
+
+.text .autor {
+    margin-bottom: 8px;
+}
+
+.text .autor>span {
+    color: var(--color-primary);
+}
+
+.text .empresa {
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: var(--color-neutral-L_Grey);
+}
+
+.wrapper-img {
+    display: flex;
+    padding: 32px 0px;
+    gap: 41px;
+}
+
+.green{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     color: var(--color-primary);
+     gap: 8px;
+} */
+
+
+
+
+/*------------------------FIM smith ------------------------- */
+/*------------------------CUSTOMER ------------------------- */
+.customer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 78px;
+    background-color: var(--color-neutral-Silver);
+}
+
+.customer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 748px;
+}
+
+.customer-content p:nth-child(1) {
+    color: var(--color-neutral-Grey);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.custumer-information {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.autor {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.custumer-information .autor p:nth-child(1) {
+    color: var(--color-primary);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.custumer-information .autor p:nth-child(2) {
+    color: var(--color-neutral-L_Grey);
+
+}
+
+.custumer-container {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.customer-itens {
+    display: flex;
+    gap: 41px;
+}
+
+.customer-navigation button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+    color: var(--color-primary);
+    background-color: transparent;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/*------------------------ FIM CUSTOMER ------------------------- */
+/* ------------------------caring-marketing  ------------------------- */
+/* .caring-marketing {
+    text-align: center;
+    padding: 48px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+
+}
+
+.caring-marketing-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.caring-marketing-text p {
+    color: var(--color-neutral-Grey);
+    width: 628px;
+}
+
+.caring-marketing-container {
+    display: flex;
+    justify-content: center;
+   
+    gap: 24px;
+}
+
+.caring-cards {
+    width: 368px;
+    position: relative;
+}
+
+
+
+.carding-content  {
+    padding: 16px;
+    background-color: var(--color-neutral-Silver);
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(171, 190, 200, 0.40);
+    width: 317px;
+    position: absolute;
+    top: 190px;
+    left: 25.5px;
+    gap: 16px;
+}
+
+.carding-content p {
+    font-size: 20px;
+    color: var(--color-neutral-Grey);
+    font-weight: 600;
+}
+
+.caring-cards .carding-content button{
+    
+    background-color: transparent ;
+    gap: 8px;
+    color: var(--color-primary);
+    font-weight: 600;
+    padding: 8px;
+} */
+
+
+
+/*------------------------ FIM caring-marketing  ------------------------- */
+/* ------------------------------ CARING MARKETING ------------------------------ */
+
+
+.caring-marketing {
+    text-align: center;
+}
+
+.caring-marketing h2 {
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+
+.caring-marketing-p {
+    width: 628px;
+    margin: 0 auto;
+}
+
+.caring-marketing-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 94.6px;
+}
+
+.caring-cards {
+    width: 368px;
+    position: relative;
+}
+
+.caring-cards-content {
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: var(--color-neutral-Silver);
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 3px rgba(171, 190, 209, 0.4);
+    width: 317px;
+    position: absolute;
+    bottom: -53px;
+    left: 25px;
+}
+
+.caring-cards-content h3 {
+    font-size: 20px;
+    color: var(--color-neutral-Grey);
+}
+
+.caring-cards-content a {
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 24px;
+    justify-content: center;
+    gap: 8px;
+    font-weight: bold;
+}
+
+.caring-cards-content a p {
+    color: var(--color-primary);
+}
+
+/* ------------------------------ FIM CARING MARKETING ------------------------------ */
+/* ------------------------------ PELLENTESQUE ------------------------------ */
+
+.pellentesque {
+    text-align: center;
+    background-color: var(--color-neutral-Silver);
+    padding: 32px 0;
+}
+
+.pellentesque a {
+    text-decoration: none;
+}
+
+.pellentesque h2 {
+    font-size: 64px;
+    font-size: 64px;
+    width: 670px;
+    margin: 0 auto;
+    padding: 32px 0px;
+}
+
+.pellentesque button {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 8px;
+}
+
+/* ------------------------------ FIM PELLENTESQUE ------------------------------ */
+
+
+/* ------------------------------  FOOTER ------------------------------ */
+
+footer {
+    background-color: var(--color-neutral-black);
+    display: flex;
+    justify-content: center;
+    gap: 284px;
+    padding: 64px 0;
+}
+
+.copyright {
+    margin: 40px 0;
+}
+
+.copyright p {
+    color: var(--color-neutral-Silver);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.copyright p:nth-of-type(1) {
+    margin-bottom: 8px;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 16px;
+}
+
+.social-icons {
+    background-color: #3C474C;
+    padding: 7.47px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+
+.social-icons:hover {
+    transform: translateY(-10px);
+    background-color: var(--color-primary);
+}
+
+
+.footer-navigation {
+    display: flex;
+    gap: 97px;
+}
+
+.footer-navigation h2 {
+    margin-bottom: 24px;
+    font-size: 20px;
+    color: var(--color-neutral-White);
+}
+
+.footer-links {
+    list-style: none;
+    font-size: 14px;
+}
+
+.footer-item {
+    color: var(--color-neutral-Silver);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+    transition: 0.4s;
+}
+
+.footer-item:hover {
+    color: var(--color-primary);
+    transform: translateX(10px);
+}
+
+.footer-container form {
+    display: flex;
+    align-items: center;
+}
+
+.footer-container form input {
+    padding: 10px;
+    border-radius: 8px 0 0 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #D9DBE1;
+    outline: none;
+}
+
+.footer-container form input::placeholder {
+    color: #D9DBE1;
+}
+
+.stay-button {
+    padding: 8.5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+/* 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 165px;
+    gap: 125px;
+    background-color: var(--color-neutral-black);
+}
+
+
+.about {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
+    width: 350px;
+    height: 189px;
+}
+
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-neutral-Silver);
+    font-weight: 400;
+    font-size: 14px;
+    gap: 8px;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+}
+
+
+.company-information {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+   
+
+    width: 635px;
+    height: 200px;
+}
+
+.navigation  {
+   display: flex;
+   
+} */
+
+/* ------------------------------ FIM FOOTER ------------------------------ */
+
+/* -------------------------------braskpoints-------------------------------- */
+/* mobile 480px
+tablet 768px
+notebook 1024px
+desktop 1200px */
+
+
+
+@media (max-width: 1024px) {
+  
+.nav-header{
+display: none;
+}
+.btn-header{
+    display: flex;
+}
+
+main{
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+main h1{
+    font-size: 55px;
+}
+
+.card-wrapper{
+    gap: 25px;
+}
+
+.pixelgrade{
+    gap: 16px;
+}
+
+}
+
+@media(max-width: 768px) {}
+
+
+@media (max-width: 468px) {}

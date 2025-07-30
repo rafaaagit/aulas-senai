@@ -1,0 +1,7 @@
+.static{
+    background-color: chocolate;
+    width: 200px;
+    height: 100px;
+    position: static;
+
+}

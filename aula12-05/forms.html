@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <fieldset>   
+    <!-- form define que será um formulario -->
+    <form>
+        <!-- label é um texto descritivo de um input -->
+        <!-- <label>Nome Completo</label> -->
+        <!-- input é aonde o usuario prenche com seus dados -->
+         <!-- <input type="text"> -->
+
+         <label for="nome">Nome completo</label>
+         <!-- o type basicamente é oque vc vai trabalhar (fala o tipo do input)-->
+          <input type="text" 
+          name="nome" 
+          id="nome" 
+          placeholder="informe seu nome"
+          required
+          >
+          <label for="email">E-mail</label>
+          <input type="email"
+          name="email"
+          id="email"
+          placeholder="informe seu E-mail"
+          required
+          >
+
+          <label for="senha">senha</label>
+          <input type="password"
+          name="senha"
+          id="senha"
+          placeholder="Informe sua senha"
+          required
+          >
+
+          <label for="idade">idade</label>
+          <input type="number"
+          name="idade"
+          id="idade"
+          placeholder="informe sua idade"
+          >
+
+          <label for="data de nascimento">data de nascimento</label>
+          <input type="date"
+          name="data de nascimento"
+          id="data de nascimento"  
+          >
+
+          <label for="profissão">profissão</label>
+          <select>
+            <option>opção zero</option>
+            <option>opção nunk</option>
+            <option value="opção 1">opção 1</option>
+          </select>
+
+          <br>
+
+          <p>Cor favorita</p>
+          <label for="">
+            <!-- radio só pode selecionar uma -->
+            <input type="radio"
+            name="cor"
+            value="azul">
+            azul
+          </label>
+
+          <label for="">
+            <input type="radio"
+            name="cor"
+            value="vermelho">
+            vermelho
+          </label>
+
+          <label for="">
+            <input type="radio"
+            name="cor"
+            value="verde">
+            verde
+          </label>
+
+          <br>
+
+          <p>Selecione as frutas que você gosta:</p>
+
+          <label for="">
+            <!-- checkbox serve para selecionar mais de uma opção -->
+            <input type="checkbox"
+            name="frutas"
+            value="Maçã"
+            >
+            maçã
+          <label for="">
+            <input type="checkbox"
+            name="frutas"
+            value="Laranja"
+            >
+            Laranja
+          </label>
+          <label for="">
+            <input type="checkbox"
+            name="frutas"
+            value="tangerina"
+            >
+            tangerina
+          </label>
+        </fieldset>
+<!-- submit é para enviar -->
+        <button type="submit">enviar</button>
+
+
+
+
+
+
+          
+
+    </form>
+
+</body>
+</html>

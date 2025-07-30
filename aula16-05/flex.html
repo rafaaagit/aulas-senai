@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        /* isso é um reset css */
+        /* seletor global *  */
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing:border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+
+
+
+             display: flex;
+             /* gap: 100px; */
+             /* justify-content: space-between; espaçamento igual entre eles */
+             justify-content: space-between;
+
+             /* o mesmo valor de distancia entre os itens e entre as laterais */
+             /* justify-content: space-around; */
+
+             /* evellyn tem igualmente os espaços */
+             /* justify-content: space-evenly; */
+             
+
+
+             border: 1px solid black;
+             background-color:azure;
+
+        }
+
+        .circle{
+            width: 50px;height: 50px;border-radius: 50px;background-color: blueviolet;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .red{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="circle"></div>
+    <div class="circle yellow"></div>
+    <div class="circle red"></div>
+    
+</body>
+</html>

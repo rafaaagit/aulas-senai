@@ -1,0 +1,18 @@
+.box{
+    /* height altura */
+    /* width largura */
+    /* padding é a distancia do conteudo pra borda (espaçamento interno) */
+    /* border é a borda 1px é a grossura da borda solid seria o tipo dela poderia usar tbm dashed por exemplo e a outra é a cor  */
+    /* content é o conteudo */
+    /* margin é a distancia de um elemento de outro(aplica a margem em todos os lados) usando o atributo top aplica somente em cima */
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+
+    padding: 100px;
+
+    border: 1px solid #000;
+
+    margin: 100px 10px 20px 900px;
+    /* quando usa margin assim eu estou aplicando em cima direita baixo esquerda e quando coloca duas a primeira se aplica em cima e embaixo e a segunda se aplica na direita e esquerda  */
+}

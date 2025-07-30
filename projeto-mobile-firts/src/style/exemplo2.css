@@ -1,0 +1,158 @@
+/* --- ESTILOS MOBILE FIRST (PADRÃO) --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    font-size: 16px; /* Tamanho da fonte base para mobile */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px; /* Limite máximo para o conteúdo */
+    margin: 20px auto;
+    padding: 0 15px; /* Padding nas laterais para telas pequenas */
+    box-sizing: border-box;
+}
+
+/* Navegação Mobile First */
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #444;
+    display: flex;
+    flex-direction: column; /* Itens empilhados em mobile */
+}
+
+.main-nav ul li a {
+    display: block;
+    padding: 12px 15px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #555;
+    text-align: center;
+}
+
+.main-nav ul li:last-child a {
+    border-bottom: none;
+}
+
+.main-nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Conteúdo */
+.content-area {
+    display: flex;
+    flex-direction: column; /* Cards empilhados em mobile */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.feature-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.feature-card img {
+    max-width: 100%; /* Imagens sempre responsivas */
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.feature-card h2 {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* --- MEDIA QUERIES PARA TELAS MAIORES (Aprimoramento Progressivo) --- */
+
+/* Tablets e Desktops (a partir de 768px) */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 18px; /* Aumenta a fonte */
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    .container {
+        padding: 0 20px; /* Mais padding nas laterais em telas maiores */
+    }
+
+    /* Navegação horizontal para desktop */
+    .main-nav ul {
+        flex-direction: row; /* Itens em linha */
+        justify-content: center; /* Centraliza os itens */
+        border-radius: 5px;
+    }
+
+    .main-nav ul li a {
+        border-bottom: none; /* Remove bordas verticais */
+        border-right: 1px solid #555; /* Adiciona borda entre itens */
+    }
+
+    .main-nav ul li:last-child a {
+        border-right: none;
+    }
+
+    /* Cards em 2 colunas */
+    .content-area {
+        flex-direction: row; /* Cards lado a lado */
+        flex-wrap: wrap; /* Permite quebrar linha se não couber */
+        justify-content: center; /* Centraliza os cards */
+    }
+
+    .feature-card {
+        flex: 1 1 calc(50% - 20px); /* Ocupa metade da largura, considerando o gap */
+        max-width: calc(50% - 20px);
+    }
+}
+
+/* Desktops Maiores (a partir de 1024px) */
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    /* Cards em 3 colunas (se houver mais cards) */
+    .content-area {
+        justify-content: flex-start; /* Alinha à esquerda */
+    }
+
+    .feature-card {
+        flex: 1 1 calc(33.333% - 20px); /* Ocupa um terço da largura, considerando o gap */
+        max-width: calc(33.333% - 20px);
+    }
+}
